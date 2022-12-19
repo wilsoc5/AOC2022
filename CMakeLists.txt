@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 
 project(AOC2022)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(day1 day1/day1main.cpp)
 add_executable(day2 day2/day2main.cpp)
@@ -9,3 +10,4 @@ add_executable(day4 day4/day4main.cpp)
 add_executable(day5 day5/day5main.cpp)
 add_executable(day6 day6/day6main.cpp)
 add_executable(day7 day7/day7main.cpp)
+add_executable(day8 day8/main.cpp)
